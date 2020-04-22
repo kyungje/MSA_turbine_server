@@ -1,0 +1,10 @@
+server:
+  port: ${turbine.port}
+#Eureka Standalone Server
+eureka: 
+  client:
+    service-url:
+      defaultZone: ${eureka.client.service-url.defaultZone}
+#Turbine Server
+turbine:  app-config: ${turbine.app-config}
+  cluster-name-expression: new String("default")
