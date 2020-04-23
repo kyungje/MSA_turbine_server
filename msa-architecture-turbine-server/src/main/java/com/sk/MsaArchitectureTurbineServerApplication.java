@@ -9,7 +9,6 @@ import org.springframework.cloud.netflix.turbine.EnableTurbine;
 @EnableEurekaClient
 @EnableTurbine
 public class MsaArchitectureTurbineServerApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(MsaArchitectureTurbineServerApplication.class, args);
 	}
