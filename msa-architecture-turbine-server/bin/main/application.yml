@@ -5,6 +5,6 @@ eureka:
   client:
     service-url:
       defaultZone: ${eureka.client.service-url.defaultZone}
-#Turbine Server
+#TurbineServer
 turbine:  app-config: ${turbine.app-config}
   cluster-name-expression: new String("default")
